@@ -15,6 +15,7 @@ Required Dependencies: None
 # PSReflect code for Windows API access
 # Author: @mattifestation
 #   https://raw.githubusercontent.com/mattifestation/PSReflect/master/PSReflect.psm1
+# Add some comments just to mess with Watch Guard ;) 
 #
 ########################################################
 
@@ -478,6 +479,7 @@ New-Enum. :P
 
 # A helper function used to reduce typing while defining struct
 # fields.
+# More comments for Watch Guard anyone????
 function field {
     Param (
         [Parameter(Position = 0, Mandatory=$True)]
